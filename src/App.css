@@ -1,0 +1,39 @@
+.card__container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+.img__id {
+    margin-bottom: 2em;
+    background-image: url(./submit.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1840px;
+    height: 272px;
+    top: 372px;
+    gap: 10px;
+    
+}
+.submit__id {
+    margin-bottom: 4em;
+    text-align: center;
+}
+.input__id {
+    border-radius: 0.5em 0 0 0.5em;
+    width: 250px;
+    height: 30px;
+}
+.button {
+    background-color: green;
+    color: white;
+    border-radius: 0 0.5em 0.5em 0;
+    cursor: pointer;
+    height: 30px;
+    transition: transform 100ms ease;
+    &:hover {
+        transform: scale(1.06);
+        filter: brightness(1.2);
+    }
+}
